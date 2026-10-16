@@ -6,7 +6,7 @@
 2. Do predictive signals reflect real pre-operative information, or artifacts / leakage?
 3. Can the published 30-day mortality model be reproduced, and what other clinical prediction tasks does the data support?
 
-Team: Majed AlFaraj, Jake Pastoria, Viraj Gupta. Full report: [`report/CPH100_Final_Project_Writeup.pdf`](report/CPH100_Final_Project_Writeup.pdf). Work split: [`report/CPH100_Final_Project_Contribution_Statement.pdf`](report/CPH100_Final_Project_Contribution_Statement.pdf).
+Team: Majed AlFaraj, Jake Pastoria, Viraj Gupta. Full report: [`report/CPH100_Final_Project_Writeup.pdf`](report/CPH100_Final_Project_Writeup.pdf).
 
 ## Findings
 
