@@ -1,8 +1,8 @@
-# Clinical Machine Learning Portfolio — CPH 100A
+# Clinical Machine Learning Portfolio — CPH 100
 
 > Three end-to-end projects applying machine learning to real clinical problems: **lung cancer screening risk prediction**, **deep learning for histopathology images**, and **validation + prediction on a large perioperative (surgical) dataset**.
 
-Coursework for **CPH 100A** (UC Berkeley, Fall 2025). Projects 1 and 3 were completed in teams; Project 2's models were implemented individually with a team analysis.
+Coursework for **CPH 100** (UC Berkeley, Fall 2025). Projects 1 and 3 were completed in teams; Project 2's models were implemented individually with a team analysis.
 
 | | Project | Problem | Methods | Headline result |
 |---|---|---|---|---|
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ## Contributions and attribution
 
 - **Team work:** Project 1 write-up authored with Jake Pastoria, Asli Alpman, Majed AlFaraj and Viraj Gupta. Project 3 completed with Majed AlFaraj, Jake Pastoria and Viraj Gupta.
-- **Course scaffolding:** Starter code and project specifications come from the CPH 100A course release ([yala/CPH100_25_release](https://github.com/yala/CPH100_25_release)). Files provided by the instructors (e.g., `synthetic_data.py`, `classification_dataset.py`, `metrics.py`, `check_installation.py`, the overall script structure) are included for completeness; student-implemented parts are the model, vectorizer, dispatcher, training-loop and analysis code.
+- **Course scaffolding:** Starter code and project specifications come from the CPH 100 course release ([yala/CPH100_25_release](https://github.com/yala/CPH100_25_release)). Files provided by the instructors (e.g., `synthetic_data.py`, `classification_dataset.py`, `metrics.py`, `check_installation.py`, the overall script structure) are included for completeness; student-implemented parts are the model, vectorizer, dispatcher, training-loop and analysis code.
 - **AI-tool use:** The course permitted AI assistance for the vectorizer, dispatcher, utilities and team analyses, and discouraged it for core model/gradient implementations.
 
 ## Limitations and next steps
