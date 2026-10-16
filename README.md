@@ -2,7 +2,7 @@
 
 > Three end-to-end projects applying machine learning to real clinical problems: **lung cancer screening risk prediction**, **deep learning for histopathology images**, and **validation + prediction on a large perioperative (surgical) dataset**.
 
-Coursework for **CPH 100A** (UC Berkeley, Fall 2025). Projects 1 and 3 were completed in teams (see [Contributions](#my-contributions-and-attribution)); Project 2's models were implemented individually with a team analysis.
+Coursework for **CPH 100A** (UC Berkeley, Fall 2025). Projects 1 and 3 were completed in teams; Project 2's models were implemented individually with a team analysis.
 
 | | Project | Problem | Methods | Headline result |
 |---|---|---|---|---|
@@ -44,7 +44,7 @@ Coursework for **CPH 100A** (UC Berkeley, Fall 2025). Projects 1 and 3 were comp
 │   └── visualizations/                   # predictions for each segmentation model
 └── project3-inspire-perioperative/
     ├── notebooks/                        # EDA, reference-model recreation, our ICU model
-    └── report/                           # final report + contribution statement (PDF)
+    └── report/                           # final report (PDF)
 ```
 
 ## Quick start
@@ -68,8 +68,7 @@ pip install -r requirements.txt
 
 ## My contributions and attribution
 
-- **Team work:** Project 1 write-up authored with Jake Pastoria, Asli Alpman, Majed AlFaraj and Viraj Gupta. Project 3 completed with Majed AlFaraj, Jake Pastoria and Viraj Gupta; the work split is documented in [the contribution statement](project3-inspire-perioperative/report/CPH100_Final_Project_Contribution_Statement.pdf).
-- **My role:** `[ADD 2–3 SPECIFIC BULLETS: e.g., "Implemented logistic regression, gradient and SGD loop (Project 1)"; "Implemented CNN/U-Net and training loops (Project 2)"; "Wrote X section of final report (Project 3)"]`
+- **Team work:** Project 1 write-up authored with Jake Pastoria, Asli Alpman, Majed AlFaraj and Viraj Gupta. Project 3 completed with Majed AlFaraj, Jake Pastoria and Viraj Gupta.
 - **Course scaffolding:** Starter code and project specifications come from the CPH 100A course release ([yala/CPH100_25_release](https://github.com/yala/CPH100_25_release)). Files provided by the instructors (e.g., `synthetic_data.py`, `classification_dataset.py`, `metrics.py`, `check_installation.py`, the overall script structure) are included for completeness; student-implemented parts are the model, vectorizer, dispatcher, training-loop and analysis code.
 - **AI-tool use:** The course permitted AI assistance for the vectorizer, dispatcher, utilities and team analyses, and discouraged it for core model/gradient implementations.
 
