@@ -17,7 +17,7 @@ Coursework for **CPH 100A** (UC Berkeley, Fall 2025). Projects 1 and 3 were comp
 - **Deep learning (PyTorch):** CNNs with batch norm, encoder–decoder and U-Net with skip connections, Dice + BCE loss, IoU evaluation
 - **Clinical evaluation:** ROC / precision–recall analysis, sensitivity/specificity/PPV, operating-point matching against a clinical guideline (NLST), subgroup fairness analysis
 - **Data auditing & leakage detection:** schema checks, timestamp consistency, physiologic range validation, identifying intra-operative leakage in a published model
-- **Scientific communication:** written reports with figures, limitations, and contribution statements
+- **Scientific communication:** written reports with figures and limitations
 
 ## Repository structure
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 **Project 3 — INSPIRE.** Data audit found undocumented time units, inverted timestamp pairs (<1%), and a large gap between all-cause and in-hospital death times. The published mortality model includes anesthesia duration, which is only known after surgery; removing that feature from our ICU-admission model alone dropped AUC to 0.79; adding pre-operative ward vitals, the Charlson Comorbidity Index and immunosuppressant/anticoagulant flags recovered performance to 0.869 without using any post-operative information.
 
-## My contributions and attribution
+## Contributions and attribution
 
 - **Team work:** Project 1 write-up authored with Jake Pastoria, Asli Alpman, Majed AlFaraj and Viraj Gupta. Project 3 completed with Majed AlFaraj, Jake Pastoria and Viraj Gupta.
 - **Course scaffolding:** Starter code and project specifications come from the CPH 100A course release ([yala/CPH100_25_release](https://github.com/yala/CPH100_25_release)). Files provided by the instructors (e.g., `synthetic_data.py`, `classification_dataset.py`, `metrics.py`, `check_installation.py`, the overall script structure) are included for completeness; student-implemented parts are the model, vectorizer, dispatcher, training-loop and analysis code.
