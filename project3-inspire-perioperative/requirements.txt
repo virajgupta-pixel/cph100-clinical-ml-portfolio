@@ -1,0 +1,9 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+xgboost
+torch
+notebook
+comorbidipy @ git+https://github.com/vvcb/comorbidipy.git@c676a8067ce343704d75bcf8180f9baa1ac47664
